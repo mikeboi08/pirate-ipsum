@@ -1,0 +1,32 @@
+#pirate-ship{
+    float: right;
+    height: 150px;
+    margin: 30px;
+    transform: rotate(3deg);
+    border: 5px solid gray;
+    padding: 10px;
+}
+
+#pirate-chest{
+    float: left;
+    height: 150px;
+    margin: 30px;
+    border-radius: 15px gray;
+    transform: rotate(-3deg);
+}
+img{
+    height: 150px;
+    margin: 30px;
+    border-radius: 15px gray;
+}
+.centered{
+    display: flex;
+    flex-direction: column; /* Align items in a column */
+    justify-content: center; /* Center items vertically */
+    align-items: center; /* Center items horizontally */
+    height: 300px; /* Adjust the height as needed */
+    border: 2px solid gray;
+    margin: 30px;
+    transform: rotate(3deg);
+
+}
